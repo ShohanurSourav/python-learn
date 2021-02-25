@@ -7,12 +7,14 @@ class Shape:
         print("I am area method of shape class")
 
 
+# triangle class inherits Shape class' property        
 class Triangle(Shape):
     def area(self):
         area = 0.5 * self.dim1 * self.dim2
         print("Area of Triangle : ", area)
+        
 
-
+# rectangle class inherits Shape class' property
 class Rectangle(Shape):
     def area(self):
         area = self.dim1 * self.dim2
