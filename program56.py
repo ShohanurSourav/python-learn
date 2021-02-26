@@ -11,7 +11,7 @@ class Bike:
     
     # magic method to print the obj value
     def __str__(self):
-        return (f"Name = {self.name}, Color = {self.color}")
+        return f"Name = {self.name}, Color = {self.color}"
 
     def display(self):
         print(f"Name = {self.name}, Color = {self.color}")
